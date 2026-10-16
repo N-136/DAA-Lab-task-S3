@@ -82,7 +82,8 @@ void codes(struct node *root, int code[], int top)
 	}
 }
 
-void freeTree(struct node *root) {
+void freeTree(struct node *root)
+{
     if (root == NULL)
         return;
 
